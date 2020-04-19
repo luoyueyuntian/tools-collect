@@ -6,10 +6,10 @@
 + angular：谷歌开源的跨平台前端开发框架
 + Angular.js：使用超动感HTML & JS开发WEB应用，已淘汰。
 + bootstarp：HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。
-+ Pure
-+ Polymer
-+ knockout.js：MVVM开发前台，绑定技术
-+ Quasar
++ Pure：美国雅虎公司出品的一组轻量级、响应式纯css模块，适用于任何Web项目。
++ Polymer：Polymer提供了一种为Web应用程序创建自定义元素的简单方法，目的是用来构造Web组件。
++ knockout.js：是一个基于JavaScript开发的轻量级MVVM框架
++ jQuery Mobile：用于创建移动端web应用的的前端框架。
 
 #### 跨端应用开发框架
 + Foundation：是一个易用、强大而且灵活的框架，用于构建基于任何设备上的 Web 应用。[官方文档](https://get.foundation/)
@@ -39,6 +39,7 @@
 + UIkit：一个轻量级的模块化前端框架，用于快速开发Web界面。
 + Ext.js：一个流行的JavaScript框架，它为使用跨浏览器功能构建Web应用程序提供了丰富的UI
 + jquery-ui：基于Jquery的开源网页用户界面代码库。[文档](https://www.jqueryui.org.cn/)
++ Quasar：基于Vue.js的开源框架，允许作为Web开发人员的您快速创建多种类型的responsive++网站/应用
 
 #### 插件
 + 文件上传下载:webuploader
@@ -70,7 +71,7 @@
 + emojify.js:用于自动识别网页上的Emoji文字并将其显示为图像
 + Respond.js：让不懂爱的IE6-8支持响应式设计
 + jquery： jQuery 是一个 JavaScript 库。 jQuery 极大地简化了 JavaScript 编程。
-+ Zepto.js：移动端替代jQuery的东东，当然也可以使用jquery-mobile.
++ Zepto.js：Zepto是一个轻量级的JavaScript库，用于移动端替代jQuery
 + underscore.js：是一个 JavaScript 工具库,它提供了一整套函数式编程的实用功能
 + Polyfill：用来为旧浏览器提供它没有原生支持的较新的功能的代码块
 + rxjs：JavaScript的响应式编程库[文档](http://cn.rx.js.org/)
@@ -148,11 +149,11 @@
 
 
 #### 开发环境搭建
-+ webpack
++ webpack：JavaScript 应用程序的静态模块打包器
 + express
 + nginx
-+ gulp
-+ grunt：任务管理器
++ gulp：基于node.js的一个前端自动化构建工具,开发者可以使用它构建自动化工作流程(前端集成开发环境)
++ grunt：任务管理器，JavaScript 构建工具
 + mock
 + bower：Web包管理器
 + Less,Compass:简化CSS开发
@@ -169,6 +170,8 @@
 + 在线检测HTML是否符合W3C规范问题
 
 #### 静态服务器工具
++ express
++ nginx
 
 #### 代码调试工具
 + jsnice：有趣的js反编译工具，猜压缩后的变量名 http://www.jsnice.org/
@@ -182,19 +185,39 @@
 + Piwik：开源网站访问量统计系统
 + ClickHeat：开源的网站点击情况热力图
 
+#### HTML代码风格检查工具
++ Bootlint
++ AriaLinter
++ htmllint
++ HTMLHint
++ htmlcs
 
-#### 代码静态检查
-+ eslint
+#### CSS代码规范处理工具
++ CSSLint
++ PrettyCSS
++ recess
++ ckstyle
++ stylelint
++ CSSHint
+
+#### JavaScript 代码静态质量检查
++ JSLint
++ JSHint
++ ClosureLinter
++ JSCS
++ ESLint
 + tslit
-+ jshint
 
 #### 调试工具
-webdevelop
-findbug
++ Chrome Developer Tools
++ FireBug
 + ngrok：内网穿透工具
++ httprequester
 
 #### 代码管理工具
 + git，svn：源代码版本控制系统
++ SourceTree: Windows 和Mac OS X 下免费的 Git 和 Hg 客户端管理工具
++ TortoiseGit: 右键菜单的方式操作git
 
 #### 项目模板
 + AdminLTE：github上的一个开源项目，基于Boostrap3的后台管理页面框架
@@ -234,7 +257,6 @@ findbug
 + protractor：E2E（end to end）自动化测试工具
 
 # 大数据处理/数据分析/分布式工具
-
 + Hadoop：分布式的文件系统，结合其MapReduce编程模型可以用来做海量数据的批处理（Hive，Pig，HBase啥的就不说了），值得介绍的是Cloudera的Hadoop分支CDH5，基于YARN MRv2集成了Spark可直接用于生产环境的Hadoop，对于企业快速构建数据仓库非常有用。
 + Ceph:Linux分布式文件系统（特点：无中心）
 + Storm：实时流数据处理，可以看下IBM的一篇介绍 （还有个Yahoo的S4，也是做流数据处理的）
@@ -291,7 +313,6 @@ findbug
 + Red5:用Java开发开源的Flash流媒体服务器。它支持：把音频（MP3）和视频（FLV）转换成播放流； 录制客户端播放流（只支持FLV）；共享对象；现场直播流发布；远程调用。
  
 # Python
-
 + Eric,Eclipse+pydev,比较不错的Python IDE
 + PyWin:Win32 api编程包
 + numpy:科学计算包，主要用来处理大型矩阵计算等，此外还有SciPy，Matplotlib
@@ -299,7 +320,6 @@ findbug
 + supervisor:进程监控工具
  
 # Java相关
-
 + 常用的IDE：IntelliJ IDEA，Eclipse，Netbeans
 + Web开发相关：Tomcat、Resin、Jetty、WebLogic等，常用的组件Struts，Spring
 + HibernateNetty: 异步事件驱动网络应用编程框架，用于高并发网络编程比较好（NIO框架）
@@ -370,6 +390,7 @@ findbug
 + Radmin:远程控制工具，用了一段时间的
 + DameWare，还要破解，对Win7支持的不好，还是发现这个好用
 + Listary：能极大幅度提高你 Windows 文件浏览与搜索速度效率的「超级神器」
++ everything：文件搜索神器
 + Clover：谷歌浏览器风格管理本地资源文件
 + WinLaunch：模拟Mac OS的Launch工具
 + Fritzing：绘制电路图
@@ -386,9 +407,10 @@ findbug
 + dependency walker：查询Windows应用程序dll依赖项
 + Shairport4w：将iPhone，iPad，iPod上的音频通过AirPlay协议传输到PC上
 + Axure:快速原型制作工具，还有个在线作图的工具国内的一个创业团队做的，用着很不错http://www.processon.com
-+ tinyproxy:（Linux）小型的代理服务器支持http和https协议EaseUS Partition
-+ Master：超级简单的分区调整工具，速度还是蛮快的，C盘不够用了就用它从D盘划点空间吧，不用重装系统这么折腾哦。
++ tinyproxy:（Linux）小型的代理服务器支持http和https协议
++ EaseUS Partition Master：超级简单的分区调整工具，速度还是蛮快的，C盘不够用了就用它从D盘划点空间吧，不用重装系统这么折腾哦。
 + CheatEngine：玩游戏修改内存值必备神器（记得我在玩轩辕剑6的时候就用的它，超级方便呢）
 + ApkIDE:Android反编译神器翻、墙工具（自|由|门、天行浏览器）
 + 设计工具：Sketch、OmniGraffle
 + MindManger：思维导图
++ Xmind：思维导图
