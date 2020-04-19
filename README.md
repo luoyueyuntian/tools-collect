@@ -1,11 +1,11 @@
 # 互联网开发工具收藏
 ## web开发
 #### web框架
-+ react
-+ vue
-+ angular
-+ Angular.js:使用超动感HTML & JS开发WEB应用！
-+ bootstarp
++ react：用于构建用户界面的 JavaScript 库
++ vue：用于构建用户界面的渐进式框架
++ angular：谷歌开源的跨平台前端开发框架
++ Angular.js：使用超动感HTML & JS开发WEB应用，已淘汰。
++ bootstarp：HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。
 + Pure
 + Polymer
 + knockout.js：MVVM开发前台，绑定技术
@@ -26,6 +26,7 @@
 + NW.js：使用HTML5、CSS3和WebGL等web技术，编写原生应用的新途径[中文文档](https://nwjs.org.cn/)
 + VasSonic:轻量级的高性能的Hybrid框架。（腾讯开源项目）
 + uni-app：使用 Vue.js 开发所有前端应（iOS、Android、H5、以及各种小程序、快应用等）用的框架[官方文档](https://uniapp.dcloud.io/)
++ mui：号称最接近原生APP体验的高性能框架[文档](https://dev.dcloud.net.cn/mui/)
 
 
 #### 组件库
@@ -37,6 +38,7 @@
 + layui：经典模块化前端框架
 + UIkit：一个轻量级的模块化前端框架，用于快速开发Web界面。
 + Ext.js：一个流行的JavaScript框架，它为使用跨浏览器功能构建Web应用程序提供了丰富的UI
++ jquery-ui：基于Jquery的开源网页用户界面代码库。[文档](https://www.jqueryui.org.cn/)
 
 #### 插件
 + 文件上传下载:webuploader
@@ -58,6 +60,7 @@
 + SuperScrollorama+TweenMax+skrollr:打造超酷的视差滚动效果网页动画
 + jquery-smooth-scroll:同上，平滑滚动插件
 + jquery-table2excel：将table内容导出到excel [jquery-table2excel](https://github.com/rainabba/jquery-table2excel)
++ iscroll：iScroll是一种高性能，占用空间小，无依赖的多平台javascript滚动器。
 
 #### 工具类
 + normalize.css:采用了现代化标准让各浏览器渲染出的html保持一致的库
@@ -70,17 +73,33 @@
 + Zepto.js：移动端替代jQuery的东东，当然也可以使用jquery-mobile.
 + underscore.js：是一个 JavaScript 工具库,它提供了一整套函数式编程的实用功能
 + Polyfill：用来为旧浏览器提供它没有原生支持的较新的功能的代码块
++ rxjs：JavaScript的响应式编程库[文档](http://cn.rx.js.org/)
++ axios：基于Promise的HTTP客户端，用于浏览器和node.js
++ owasp-esapi-js：ESAPI是owasp提供的一套API级别的web应用解决方案。
++ Zone.js：zone是异步任务中持续存在的执行上下文。zone.js提供了一种机制来拦截异步任务以及追踪异步任务。
++ html2canvas：生成网页快照，使用canvas生成图片保存到本地。
++ PDF.js：使用JavaScript生成PDF文件
++ sheetjs：读取和导出excel的工具库
++ workbox：用来创建PWA的JavaScript库，谷歌开源项目。
 
 #### 在线代码编辑器
 + ACE：ACE 是一个开源的、独立的、基于浏览器的代码编辑器，可以嵌入到任何web页面或JavaScript应用程序中。
 + CodeMirror：在线代码编辑器
 
+#### markdown在线编辑器
++ editor.md：开源的在线markdown 编辑器组件
++ marktext：一个简单而优雅的markdown编辑器，适用于 Linux, macOS 和 Windows
++ remarkable：markdown解析器
++ codimd：可以在所有平台上创建实时协作markdown 笔记
 
 #### 动画
 + Animate.css:实现了各种动画效果的css库
 + Effect.css动画库[Effect.css](http://ianlunn.github.io/Hover/)
 + magic.css
 + P5.JS：一个为艺术家、设计师而开发的Javascript库，用于增强网站展示的效果，使网站富有创意 。
++ impress.js：impress.js是基于CSS3转换和过渡的表现层框架，工作于现代浏览器(Google Chrome或Safari (或 Firefox 10 或 IE10))的创建在线演示的JS库， 可以让开发者轻松创建杀手级在线演示PPT。
++ web-animations-js：Web动画API的JavaScript实现。
++ tween.js：TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
 
 #### 在线PPT工具
 + impress.js：让你制作出令人眩目的内容展示效果
@@ -141,6 +160,7 @@
 + Rollup： JavaScript 模块打包工具
 
 #### 浏览器插件
++ octotree：github浏览器扩展插件，以树形方式显示代码库所有文件。
 
 #### 在线工具
 + 在线代码压缩
@@ -329,7 +349,7 @@ findbug
 + SharpPcap：C#版的WinPcap调用端，牛逼的网络包分析库（自带PacketNotNet用于包协议分析）
 + Roslyn：C#，VB编译器
 + ImageResizer: 服务端自由控制图片大小，真乃神器也，对手机端传小图，PC端传大图，CMS用它很方便
-+ UI相关：DevExpress, Fluent(Office 07风格), mui（Modern UI for WPF）
++ UI相关：DevExpress
 + NetSparkle：应用自动更新组件
 + ConfuserEx: 开源.net混淆工具
 + ServiceStack: 开源高性能Web服务框架，可用于构建高性能的REST服务Expression
@@ -350,7 +370,7 @@ findbug
 + Radmin:远程控制工具，用了一段时间的
 + DameWare，还要破解，对Win7支持的不好，还是发现这个好用
 + Listary：能极大幅度提高你 Windows 文件浏览与搜索速度效率的「超级神器」
-+ Clover：给资源管理器加上多标签
++ Clover：谷歌浏览器风格管理本地资源文件
 + WinLaunch：模拟Mac OS的Launch工具
 + Fritzing：绘制电路图
 + LICEcap：gif教程制作
