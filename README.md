@@ -10,6 +10,8 @@
 + Polymer：Polymer提供了一种为Web应用程序创建自定义元素的简单方法，目的是用来构造Web组件。
 + knockout.js：是一个基于JavaScript开发的轻量级MVVM框架
 + jQuery Mobile：用于创建移动端web应用的的前端框架。
++ umi：阿里开源的插件化的企业级前端应用框架。
++ San：百度开源的MVVM组件框架
 
 #### 跨端应用开发框架
 + Foundation：是一个易用、强大而且灵活的框架，用于构建基于任何设备上的 Web 应用。[官方文档](https://get.foundation/)
@@ -27,7 +29,13 @@
 + VasSonic:轻量级的高性能的Hybrid框架。（腾讯开源项目）
 + uni-app：使用 Vue.js 开发所有前端应（iOS、Android、H5、以及各种小程序、快应用等）用的框架[官方文档](https://uniapp.dcloud.io/)
 + mui：号称最接近原生APP体验的高性能框架[文档](https://dev.dcloud.net.cn/mui/)
-
++ omi：腾讯开源的前端跨框架跨平台框架
++ rax：阿里开源的跨平台开发框架
++ taro：多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/支付宝/字节跳动/ QQ 小程序/快应用/H5/React Native 等的应用
++ Mpx：滴滴开源的一款致力于提高小程序开发体验和开发效率的增强型小程序框架
++ amazeui：开源 HTML5 跨屏前端框架
++ OnsenUI：跨平台HTML5混合应用程序框架
++ framework7：个开源免费的框架，可以用来开发混合移动应用（原生和 HTML 混合）或者开发 iOS & Android 风格的 WEB APP。也可以用来作为原型开发工具，可以迅速创建一个应用的原型。
 
 #### 组件库
 + Extjs：成度最高的企业级ui组件库
@@ -35,24 +43,35 @@
 + EasyUI：easyui是一种基于jQuery、Angular、Vue和React的用户界面插件集合。
 + Element：基于 Vue 2.0 的桌面端组件库
 + antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
++ ant-design-vue：Ant Design 的 Vue 实现，开发和服务于企业级后台产品。
 + layui：经典模块化前端框架
 + UIkit：一个轻量级的模块化前端框架，用于快速开发Web界面。
 + Ext.js：一个流行的JavaScript框架，它为使用跨浏览器功能构建Web应用程序提供了丰富的UI
 + jquery-ui：基于Jquery的开源网页用户界面代码库。[文档](https://www.jqueryui.org.cn/)
 + Quasar：基于Vue.js的开源框架，允许作为Web开发人员的您快速创建多种类型的responsive++网站/应用
++ mint-ui：基于 Vue.js 的移动端组件库
++ Quasar Framework：以最短时间构建高性能的VueJS用户界面
++ VUX：一个凑合的 Vue.js 移动端 UI 组件库
++ vuetify：Vue.js 2 的语义组件框架。根据谷歌的 Material 设计规范构建。
++ Semantic UI：完全语义化的前端界面开发框架
++ Material Design Lite：谷歌推出的扁平化风格的前端框架，目的在于支持全平台开发
++ iview：一套基于 Vue.js 的高质量 UI 组件库
++ Weex Ui：一个基于 Weex 的富交互、轻量级、高性能的 UI 组件库
++ rsuite：一套 React 组件库，为后台产品而生[开发文档](https://rsuitejs.com/)
 
 #### 插件
 + 文件上传下载:webuploader
-+ 日历:fullcalendar\bootstrap-calendar
-+ 时间选择器:datetimepicker\bootstrap-datetimepicker\flatpickr
-+ 表格组件:react-sortable-hoc\spreadjs(excel风格，基于canvas，收费)、bootstrap-table、datatables、react-table
++ dropzone：文件拖拽上传
++ 日历:fullcalendar、bootstrap-calendar、react-infinite-calendar、tui.calendar、react-big-calendar、fullcalendar
++ 时间选择器:datetimepicker、bootstrap-datetimepicker、flatpickr
++ 表格组件:react-sortable-hoc、spreadjs(excel风格，基于canvas，收费)、bootstrap-table、datatables、react-table
 + 分页组件
 + 表单组件
 + 弹出框组件：easyDialog
-+ 树组件：jsTree、zTree 
++ 树组件：jsTree、zTree 、angular-ui-tree
 + Swiper：移动端支持滑动功能的组件
-+ cropper：图片裁剪组件
-+ qrcode：二维码生成器组件
++ cropper、 jquery-cropper：图片裁剪组件
++ qrcodejs：二维码生成器组件
 + NProcess：绚丽的加载进度条
 + pace.js：页面加载进度条
 + jQuery.dataTables.js:高度灵活的表格插件
@@ -62,8 +81,13 @@
 + jquery-smooth-scroll:同上，平滑滚动插件
 + jquery-table2excel：将table内容导出到excel [jquery-table2excel](https://github.com/rainabba/jquery-table2excel)
 + iscroll：iScroll是一种高性能，占用空间小，无依赖的多平台javascript滚动器。
++ better-scroll：解决移动端(已支持 PC)各种滚动场景需求的插件
++ formik：用于react中的表单构建
++ vue-echarts：用在vue项目中的echarts组件
++ typeahead.js：自动补全插件
 
 #### 工具类
++ mobx-react：与react搭配使用的react状态管理工具
 + normalize.css:采用了现代化标准让各浏览器渲染出的html保持一致的库
 + math.js：浮点数据数据计算精度问题
 + Moment.js：JavaScript 日期处理类库
@@ -82,16 +106,40 @@
 + PDF.js：使用JavaScript生成PDF文件
 + sheetjs：读取和导出excel的工具库
 + workbox：用来创建PWA的JavaScript库，谷歌开源项目。
++ SlimerJS：类似 PhantomJS 的一个工具，除了它运行在 Gecko 上而不是Webkit。SlimerJS 提供几乎和 PhantomJS 相同的 API，高度兼容 PhantomJS。SlimerJS 不仅是 PhantomJS 的一个克隆，还包含额外的功能。
++ Nightmare：高级浏览器自动化库
++ sentry-javascript：前端异常监控sdk
++ fetch：浏览器中fetch api 的polyfill
++ picturefill.js：可以实现根据屏幕大小，加载不同大小的图片
++ html2canvas：使用JavaScript截屏
++ jsPDF：在客户端通过JavaScript生成PDF文件
++ pdf.js：在线预览pdf文件
++ systemjs：动态ES模块加载器
++ postal.js：支持高级订阅功能的JavaScript发布/订阅库
++ regenerator.js：Facebook开源的使浏览器可以支持es6的generator语法的代码转换器
++ vConsole：移动端h5调试工具
++ eruda：手机端浏览器控制台工具
++ NUXTJS：是一个基于 Vue.js 的轻量级应用框架,可用来创建服务端渲染 (SSR) 应用,也可充当静态站点引擎生成静态站点应用,具有优雅的代码结构分层和热加载等特性。
++ lodash：一个一致性、模块化、高性能的 JavaScript 实用工具库
++ redux-thunk：Redux的thunk中间件
++ HTML5 Boilerplate：web开发前端模版
++ remarkable：Markdown 解析器
++ draggable：
 
 #### 在线代码编辑器
 + ACE：ACE 是一个开源的、独立的、基于浏览器的代码编辑器，可以嵌入到任何web页面或JavaScript应用程序中。
 + CodeMirror：在线代码编辑器
+
+#### 富文本编辑器
++ ueditor：百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点
++ bootstrap-wysiwyg：为Bootstrap定制的微型所见即所得富文本编辑器
 
 #### markdown在线编辑器
 + editor.md：开源的在线markdown 编辑器组件
 + marktext：一个简单而优雅的markdown编辑器，适用于 Linux, macOS 和 Windows
 + remarkable：markdown解析器
 + codimd：可以在所有平台上创建实时协作markdown 笔记
++ CodiMD: 允许您在所有平台上创建实时协作markdown 笔记
 
 #### 动画
 + Animate.css:实现了各种动画效果的css库
@@ -101,13 +149,23 @@
 + impress.js：impress.js是基于CSS3转换和过渡的表现层框架，工作于现代浏览器(Google Chrome或Safari (或 Firefox 10 或 IE10))的创建在线演示的JS库， 可以让开发者轻松创建杀手级在线演示PPT。
 + web-animations-js：Web动画API的JavaScript实现。
 + tween.js：TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
-
-#### 在线PPT工具
-+ impress.js：让你制作出令人眩目的内容展示效果
 + reveal.js：轻松使用HTML技术制作演讲稿的框架
++ move.js：一款模拟CSS3动画的js插件
++ WOW.js: 让页面滚动更有趣，依赖Animate.css
++ KUTE.js：一款具有高性能的原生 JavaScript 动画引擎
++ Hover.css：一组超实用的 CSS3 悬停效果和动画
++ scrollreveal：页面滚动显示动画
++ GSAP：一个JS动画框架
++ Vivus：一款可以执行SVG路径动画的轻量级Javascript库
++ popmotion.js：一款小巧,灵活的 JavaScript 运动引擎
++ Velocity：一个简单易用、高性能、功能丰富的轻量级JS动画库
++ anime：个轻量、灵活的JavaScript 动画库.他可以配合css，svg，Dom节点和js对象工作。
++ mo.js：一个动画的图形库
++ Cax：小程序、小游戏以及 Web 通用 Canvas 渲染引擎
 
 #### 绘图工具canvas、svg
 + svg.js
++ Snap.svg
 
 #### 数据可视化
 + echarts：百度开源的数据可视化框架
@@ -120,7 +178,15 @@
 + Raphaël：js，canvas绘图库，后来发现百度指数的图形就是用它绘出来的
 + Protovis：protovis是一个可视化javascript图表生成工具
 + D3.js:是一个基于JavaScript数据展示库（类似的还有P5.js）
-
++ G2：可视化引擎。数据驱动，高度易用，可扩展的可视化图形语法。
++ G2Plot：是开箱即用、易于配置、具有良好视觉和交互体验的通用统计图表库。
++ F2：是一个专注于移动，开箱即用的可视化解决方案，完美支持 H5 环境同时兼容多种环境（Node, 小程序，Weex），完备的图形语法理论，满足你的各种可视化需求，专业的移动设计指引为你带来最佳的移动端图表体验。
++ G6：一个简单、易用、完备的图可视化引擎，它在高定制能力的基础上，提供了一系列设计优雅、便于使用的图可视化解决方案。
++ Graphin：基于 G6 封装的 React 组件库，专注在关系可视分析领域，简单高效，开箱即用。
++ ChartCube 图表魔方：AntV 在线图表制作工具 拖拽之间快速搞定图表制作
++ L7：蚂蚁金服 AntV 数据可视化团队推出的基于 WebGL 的开源大规模地理空间数据可视分析开发框架。
++ BizCharts ：阿里巴巴集团前端领域通用图表组件库，沉淀多条业务线的可视化规范，基于 G2 的 React 封装的图表组件库，可在项目中实现常见图表和自定义图表
++ Viser：基于 G2 实现的可视化解决方案
 + 可视化技术：GraphViz、Processing、Protovis、Google Fusion Tables、Tableau
 
 #### 游戏开发引擎
@@ -141,10 +207,16 @@
 + simditor:一个不错的开源的html编辑器，简洁高效
 + SublimeText：程序员最爱的编辑器
 
+#### 微信小程序插件
++ wx-charts：微信小程序图表charts组件
++ wx_calendar：微信小程序－日历
++ weapp-qrcode：微信小程序中，快速生成二维码
++ wxParse：微信小程序富文本解析自定义组件，支持HTML及markdown解析
+
 #### 好用的插件
 
 #### 资源
-+ 图标资源：IcoMoon（我的最爱），Themify Icons，FreePik，Glyphiconsart
++ 图标资源：IcoMoon，Themify Icons，FreePik，Glyphiconsart，Font-Awesome，iconfont
 + 前端UI设计师必去的几个网站：Dribbble，awwwards，unmatchedstyle，UIMaker
 
 
@@ -154,14 +226,17 @@
 + nginx
 + gulp：基于node.js的一个前端自动化构建工具,开发者可以使用它构建自动化工作流程(前端集成开发环境)
 + grunt：任务管理器，JavaScript 构建工具
-+ mock
++ mock：数据模拟
 + bower：Web包管理器
 + Less,Compass:简化CSS开发
 + Emmet:前端工程师必备，ZenCode的前身
 + Rollup： JavaScript 模块打包工具
++ json-server：一个 Node 模块，运行 Express 服务器，你可以指定一个 json 文件作为 api 的数据源。
++ webpack-dashboard：webpack查看日志工具
 
 #### 浏览器插件
 + octotree：github浏览器扩展插件，以树形方式显示代码库所有文件。
++ react-devtools：react应用开发调试工具
 
 #### 在线工具
 + 在线代码压缩
@@ -184,6 +259,7 @@
 #### 数据统计和埋点平台
 + Piwik：开源网站访问量统计系统
 + ClickHeat：开源的网站点击情况热力图
++ mta：腾讯提供的免费埋点平台，可用于Android、ios、h5、微信小程序
 
 #### HTML代码风格检查工具
 + Bootlint
@@ -221,8 +297,13 @@
 
 #### 项目模板
 + AdminLTE：github上的一个开源项目，基于Boostrap3的后台管理页面框架
++ vue-express-mongo-boilerplate：基于NodeJS, Express, Mongo and VueJS的全栈webapp开发模板
++ vue-element-admin：一个后台前端解决方案，它基于 vue 和 element-ui实现。它使用了最新的前端技术栈，内置了 i18n 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。
++ node-elm：基于 node.js + Mongodb 构建的后台系统
 
 #### 文档工具
++ slate：漂亮的API文档生成工具
++ vuepress：Vue 驱动的静态网站生成器，以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
 
 # 平台工具（都是开源的）
 + Redmine/Trac：项目管理平台
@@ -236,6 +317,11 @@
 + Nagios：系统状态监控报警，还有个Icinga(完全兼容nagios所有的插件,工作原理,配置文件以及方法,几乎一模一样。配置简单,功能强大)
 + Ganglia：分布式监控系统
 + fleet：分布式init系统
++ yapi：一个可本地部署的、打通前后端及QA的、可视化的接口管理平台
++ countly-sdk-web：适用于所有应用程序和设备的强大产品分析
++ jumpserver：JumpServer 是全球首款开源的堡垒机，是符合 4A 的专业运维安全审计系统。可用于公司远程办公。
++ next：套企业级中后台UI的解决方案，致力于解决设计师与前端在工作协同、产品体验一致性、开发效率方面的问题
+
 
 # 爬虫相关
 + Phantomjs
