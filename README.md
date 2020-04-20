@@ -12,6 +12,7 @@
 + jQuery Mobile：用于创建移动端web应用的的前端框架。
 + umi：阿里开源的插件化的企业级前端应用框架。
 + San：百度开源的MVVM组件框架
++ ractivejs：一款入门容易却功能强大的JS库，它的主旨是模板+数据=UI，数据的双向绑定，DOM节点的实时更新，事件处理等多个有用的功能。
 
 #### 跨端应用开发框架
 + Foundation：是一个易用、强大而且灵活的框架，用于构建基于任何设备上的 Web 应用。[官方文档](https://get.foundation/)
@@ -60,7 +61,7 @@
 + rsuite：一套 React 组件库，为后台产品而生[开发文档](https://rsuitejs.com/)
 
 #### 插件
-+ 文件上传下载:webuploader
++ 文件上传下载:webuploader、bootstrap-fileinput
 + dropzone：文件拖拽上传
 + 日历:fullcalendar、bootstrap-calendar、react-infinite-calendar、tui.calendar、react-big-calendar、fullcalendar
 + 时间选择器:datetimepicker、bootstrap-datetimepicker、flatpickr
@@ -133,6 +134,7 @@
 #### 富文本编辑器
 + ueditor：百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点
 + bootstrap-wysiwyg：为Bootstrap定制的微型所见即所得富文本编辑器
++ ckeditor：开源富文本编辑器
 
 #### markdown在线编辑器
 + editor.md：开源的在线markdown 编辑器组件
@@ -162,6 +164,8 @@
 + anime：个轻量、灵活的JavaScript 动画库.他可以配合css，svg，Dom节点和js对象工作。
 + mo.js：一个动画的图形库
 + Cax：小程序、小游戏以及 Web 通用 Canvas 渲染引擎
++ tween.js：TweenJS类库主要用来调整和动画HTML5和Javascript属性，提供了简单并且强大的tweening接口。
+
 
 #### 绘图工具canvas、svg
 + svg.js
@@ -202,10 +206,9 @@
 + Sea.js: js模块化
 + require.js: js模块加载库
 
-#### 编辑器
-+ ACE，CodeMirror：Html代码编辑器（ACE甚好啊）
+#### 在线编辑器
++ ACE，CodeMirror：HTML代码编辑器（支持多种语言）
 + simditor:一个不错的开源的html编辑器，简洁高效
-+ SublimeText：程序员最爱的编辑器
 
 #### 微信小程序插件
 + wx-charts：微信小程序图表charts组件
@@ -304,13 +307,13 @@
 #### 文档工具
 + slate：漂亮的API文档生成工具
 + vuepress：Vue 驱动的静态网站生成器，以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
++ gitbook：https://www.gitbook.io/写书的好东西，当然用来写文档也很不错的
 
 # 平台工具（都是开源的）
 + Redmine/Trac：项目管理平台
 + Jenkins/Jira(非开源)：持续集成系统（Apache Continuum，这个是Apache下的CI系统，还没来得及研究）
 + Sonar：代码质量管理平台
 + GitLib/Gitorious：构建自己的GitHub服务器
-+ gitbook：https://www.gitbook.io/写书的好东西，当然用来写文档也很不错的
 + Travis-ci：开源项目持续集成必备，和GitHub相结合，https://travis-ci.org/
 + 开源测试工具、社区（Selenium、OpenQA.org）
 + Puppet:一个自动管理引擎，可以适用于Linux、Unix以及Windows平台。所谓配置管理系统，就是管理机器里面诸如文件、用户、进程、软件包这些资源。无论是管理1台，还是上万台机器Puppet都能轻松搞定。
