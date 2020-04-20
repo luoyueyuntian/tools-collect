@@ -259,10 +259,12 @@
 + react-devtools：react应用开发调试工具
 
 #### 在线工具
-+ 在线代码压缩
-+ 在线代码格式化
-+ 在线JSON数据格式化
-+ 在线检测HTML是否符合W3C规范问题
++ 在线代码压缩[jscompress](https://tool.oschina.net/jscompress/)
++ 在线代码格式化[在线代码格式化](https://tool.oschina.net/codeformat)
++ 在线JSON数据格式化[在线JSON格式化工具](https://www.json.cn/)
++ 在线检测HTML是否符合W3C规范问题[w3c代码规范检查](http://validator.w3.org/)
++ 在线图片压缩[tinypng](https://tinypng.com/)
++ 在线选色器[photoshop公司出品](https://color.adobe.com/zh/create)
 
 #### 静态服务器工具
 + express
