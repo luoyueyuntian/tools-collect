@@ -181,7 +181,8 @@
 + Hightopo：基于Html5的2D、3D可视化UI库
 + Raphaël：js，canvas绘图库，后来发现百度指数的图形就是用它绘出来的
 + Protovis：protovis是一个可视化javascript图表生成工具
-+ D3.js:是一个基于JavaScript数据展示库（类似的还有P5.js）
++ D3.js:是一个基于JavaScript数据展示库
++ p2.js：物理引擎库
 + G2：可视化引擎。数据驱动，高度易用，可扩展的可视化图形语法。
 + G2Plot：是开箱即用、易于配置、具有良好视觉和交互体验的通用统计图表库。
 + F2：是一个专注于移动，开箱即用的可视化解决方案，完美支持 H5 环境同时兼容多种环境（Node, 小程序，Weex），完备的图形语法理论，满足你的各种可视化需求，专业的移动设计指引为你带来最佳的移动端图表体验。
@@ -194,13 +195,29 @@
 + 可视化技术：GraphViz、Processing、Protovis、Google Fusion Tables、Tableau
 
 #### 游戏开发引擎
-+ p2.js：物理引擎库
++ Babylon.js
 + CreateJS：Html5游戏引擎
 + cocos2d：跨平台2D游戏引擎
 + unity3d：跨平台3D游戏引擎，很火的哦
++ Egret:：基于TypeScript进行开发，支持Flash到Egret的高效转换、跨平台支持，可打包为HTML5，以及iOS 和Android平台原生app。
++ Three.js：强大而轻量的JavaScript 3D库
++ Pixi.js：一款轻量的2D Webgl库
++ Layabox：成熟的整套游戏开发的”游戏解决方案“，同时支持2D、3D、VR的H5引擎，专为高性能游戏而设计，支持ActionScript 3.0，TypeScript，JavaScript编程语言。开发一次，发布flash，HTML5，mobile。
++ Hilo：Hilo 是阿里巴巴集团开发的一款HTML5跨终端游戏解决方案，它可以帮助开发者快速创建HTML5游戏,多种渲染方式, 提供DOM，Canvas，Flash，WebGL等多种渲染方案。
++ 厘米秀引擎：QQ轻游戏使用的引擎bricks，为腾讯自研的游戏引擎，脚本层使用JavaScript。
++ Turbulenz：Turbulenz是最好的游戏引擎之一，含了很多功能，例如2d物理、3d物理、声音、视频和其他服务,如排行榜、multichat,支付和用户数据。
++ Famo.us：最好的JavaScript 3D开源框架之一
++ PlayCanvas.js：一个基于WebGL游戏引擎的企业级开源JavaScript框架，它有许多的开发工具能帮你快速创建3D游戏。
++ Goo Engine：来自于GOO技术家族，Goo引擎有一组功能强大的JavaScript API，可通过使用HTML5和WebGL创建任何3D事物。
++ Voxel.JS：基于JavaScript的一个3D游戏引擎，
++ Enchant.js：Enchant.js是一个模块化的、面向对象的JavaScript框架，可用HTML5创建简单的APP和游戏。
++ G3D：阿里巴巴开源的一款基于 WebGL 的 javascript 3D 绘图引擎
 
 #### 3D开发
 + Threejs：3DWeb库
++ Egret
++ Layabox
++ 见上方的游戏开发引擎，很多都是支持3D的
 
 #### 模块化工具
 + Sea.js: js模块化
