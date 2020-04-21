@@ -126,6 +126,7 @@
 + HTML5 Boilerplate：web开发前端模版
 + remarkable：Markdown 解析器
 + draggable：
++ mockjs：前端接口数据模拟工具，通过在前端拦截请求的方式模拟接口数据返回
 
 #### 在线代码编辑器
 + ACE：ACE 是一个开源的、独立的、基于浏览器的代码编辑器，可以嵌入到任何web页面或JavaScript应用程序中。
