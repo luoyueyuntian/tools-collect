@@ -13,6 +13,7 @@
 + umi：阿里开源的插件化的企业级前端应用框架。
 + San：百度开源的MVVM组件框架
 + ractivejs：一款入门容易却功能强大的JS库，它的主旨是模板+数据=UI，数据的双向绑定，DOM节点的实时更新，事件处理等多个有用的功能。
++ Fusion.js：一个基于插件架构的通用 Web 框架，支持 React 和 Redux 等流行库
 
 #### 跨端应用开发框架
 + Foundation：是一个易用、强大而且灵活的框架，用于构建基于任何设备上的 Web 应用。[官方文档](https://get.foundation/)
@@ -128,6 +129,13 @@
 + draggable：
 + mockjs：前端接口数据模拟工具，通过在前端拦截请求的方式模拟接口数据返回
 
+#### 用用javascript Parser
++ esprima
++ traceur
++ acorn
++ shift
++ jscodeshift
+
 #### 在线代码编辑器
 + ACE：ACE 是一个开源的、独立的、基于浏览器的代码编辑器，可以嵌入到任何web页面或JavaScript应用程序中。
 + CodeMirror：在线代码编辑器
@@ -227,6 +235,7 @@
 #### 在线编辑器
 + ACE，CodeMirror：HTML代码编辑器（支持多种语言）
 + simditor:一个不错的开源的html编辑器，简洁高效
++ monaco-editor:monaco editor是微软开源的一款web版代码编辑器。它支持智能提示，代码高亮，代码格式化。
 
 #### 微信小程序插件
 + wx-charts：微信小程序图表charts组件
