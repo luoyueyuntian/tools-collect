@@ -139,6 +139,8 @@
 #### 在线代码编辑器
 + ACE：ACE 是一个开源的、独立的、基于浏览器的代码编辑器，可以嵌入到任何web页面或JavaScript应用程序中。
 + CodeMirror：在线代码编辑器
++ simditor:一个不错的开源的html编辑器，简洁高效
++ monaco-editor:monaco editor是微软开源的一款web版代码编辑器。它支持智能提示，代码高亮，代码格式化。
 
 #### 富文本编辑器
 + ueditor：百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点
@@ -232,10 +234,6 @@
 + Sea.js: js模块化
 + require.js: js模块加载库
 
-#### 在线编辑器
-+ ACE，CodeMirror：HTML代码编辑器（支持多种语言）
-+ simditor:一个不错的开源的html编辑器，简洁高效
-+ monaco-editor:monaco editor是微软开源的一款web版代码编辑器。它支持智能提示，代码高亮，代码格式化。
 
 #### 微信小程序插件
 + wx-charts：微信小程序图表charts组件
@@ -274,7 +272,7 @@
 + 在线JSON数据格式化[在线JSON格式化工具](https://www.json.cn/)
 + 在线检测HTML是否符合W3C规范问题[w3c代码规范检查](http://validator.w3.org/)
 + 在线图片压缩[tinypng](https://tinypng.com/)
-+ 在线选色器[photoshop公司出品](https://color.adobe.com/zh/create)
++ 在线选色器[photoshop所属公司出品](https://color.adobe.com/zh/create)
 
 #### 静态服务器工具
 + express
