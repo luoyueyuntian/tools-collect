@@ -204,6 +204,7 @@
 + BizCharts ：阿里巴巴集团前端领域通用图表组件库，沉淀多条业务线的可视化规范，基于 G2 的 React 封装的图表组件库，可在项目中实现常见图表和自定义图表
 + Viser：基于 G2 实现的可视化解决方案
 + 可视化技术：GraphViz、Processing、Protovis、Google Fusion Tables、Tableau
++ SandDance 微软开源的数据可视化工具
 
 #### 游戏开发引擎
 + Babylon.js
