@@ -129,7 +129,7 @@
 + draggable：
 + mockjs：前端接口数据模拟工具，通过在前端拦截请求的方式模拟接口数据返回
 
-#### 用用javascript Parser
+#### javascript Parser
 + esprima
 + traceur
 + acorn
