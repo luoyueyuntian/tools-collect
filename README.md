@@ -263,6 +263,7 @@
 + Rollup： JavaScript 模块打包工具
 + json-server：一个 Node 模块，运行 Express 服务器，你可以指定一个 json 文件作为 api 的数据源。
 + webpack-dashboard：webpack查看日志工具
++ Parcel：具备开箱即用的对 JS, CSS, HTML, 文件 及更多的支持,而且不需要插件。
 
 #### 浏览器插件
 + octotree：github浏览器扩展插件，以树形方式显示代码库所有文件。
