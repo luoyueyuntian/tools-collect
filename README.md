@@ -146,6 +146,11 @@
 + ueditor：百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点
 + bootstrap-wysiwyg：为Bootstrap定制的微型所见即所得富文本编辑器
 + ckeditor：开源富文本编辑器
++ Slate-js:一个完全可定制的富文本编辑框架
++ Draft.js:Facebook 推出的用于 React 的富文本编辑框架，提供一致的模型以及跨浏览器差异化的抽象
++ TinyMCE:一个轻量级的基于浏览器的所见即所得编辑器
++ Quill:是一个开源的富文本编辑器，基于可扩展的架构设计，提供丰富的 API 进行定制
++ ProseMirror:一个基于 ContentEditable 的所见即所得 HTML 编辑器，功能强大，支持协作编辑和自定义文档模式 ProseMirror 库由多个单独的模块组成。
 
 #### markdown在线编辑器
 + editor.md：开源的在线markdown 编辑器组件
