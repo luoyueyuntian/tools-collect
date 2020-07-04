@@ -529,7 +529,8 @@
 + tinyproxy:（Linux）小型的代理服务器支持http和https协议
 + EaseUS Partition Master：超级简单的分区调整工具，速度还是蛮快的，C盘不够用了就用它从D盘划点空间吧，不用重装系统这么折腾哦。
 + CheatEngine：玩游戏修改内存值必备神器（记得我在玩轩辕剑6的时候就用的它，超级方便呢）
-+ ApkIDE:Android反编译神器翻、墙工具（自|由|门、天行浏览器）
++ ApkIDE:Android反编译神器翻
++ 墙工具（自|由|门、天行浏览器）
 + 设计工具：Sketch、OmniGraffle
 + MindManger：思维导图
 + Xmind：思维导图
